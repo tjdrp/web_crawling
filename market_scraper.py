@@ -86,14 +86,14 @@ class MarketInfoScraper:
 
 
 def main():
-    phone_type = input("기종을 입력해 주세요: ")
+    phone_type = input("기종을 입력해 주세요: ") # Enter the phone model
 
     while True:
-        storage_size = input("원하시는 용량을 입력해 주세요 (128, 256, 512입력 가능): ")
+        storage_size = input("원하시는 용량을 입력해 주세요 (128, 256, 512입력 가능): ") # Enter the desired storage size (128, 256, 512 available)
         if storage_size in ("128", "256", "512"):
             break
         else:
-            print("다시 시도해 주세요.")
+            print("다시 시도해 주세요.") # Please try again
 
     scraper = MarketInfoScraper()
     scraper.start_browser()
