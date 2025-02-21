@@ -2,12 +2,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from market_scraper import MarketInfoScraper
 
-size1 = input("1 사이즈")
-type1 = input("1 타입")
-size2 = input("2 사이즈")
-type2 = input("2 타입")
-size3 = input("3 사이즈")
-type3 = input("3 타입")
+size1 = input("1 사이즈") # 1 size
+type1 = input("1 타입") # 1 type
+size2 = input("2 사이즈") # 2 size
+type2 = input("2 타입") # 2 type
+size3 = input("3 사이즈") # 3 size
+type3 = input("3 타입") # 3 type
 
 info = [('blue', size1, type1), ('green', size2, type2), ('red', size3, type3)]
 
